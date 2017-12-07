@@ -1,0 +1,6 @@
+framework module CGTestPod {
+  umbrella header "CGTestPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

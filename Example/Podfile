@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'CGTestPod_Example' do
+  pod 'CGTestPod', :path => '../'
+
+  target 'CGTestPod_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+    pod 'Masonry'
+  end
+end
